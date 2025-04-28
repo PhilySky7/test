@@ -14,8 +14,8 @@ print(list(new_list))
 new_tuple = tuple(map(lambda x: x**2, new_list))
 print(new_tuple)
 
-# keys = ["a", "b", "c"]
-# values = [1, 2, 3]
-#
-# key_value = {k: v for k, v in zip(keys, values)}
-# print(key_value)
+keys = ["a", "b", "c"]
+values = [1, 2, 3]
+
+key_value = {k: v for k, v in zip(keys, values)}
+print(key_value)
