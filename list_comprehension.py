@@ -1,11 +1,3 @@
-# new_list = []
-
-# for num in integer:
-#     if num % 2 == 0:
-#         new_list.append(num)
-
-# print(new_list)
-
 integer = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 new_list = [num for num in integer if num % 2 == 0]
 print(list(new_list))
